@@ -1,0 +1,72 @@
+/*Dark blue:
+C94 M87 Y45 K59
+R31 G31 B54
+Hex: #1f1f36
+
+Light blue (in logo):
+C47 M0 Y11 K0
+R109 G196 B200
+#6dc4c8
+
+Light blue (highlight):
+C58 M0 Y25 K0
+R118 G247 B255
+#76f7ff
+
+Light yellow:
+C7 M0 Y66 K0
+R247 G237 B115
+#f7ed73
+
+Pink:
+C0 M58 Y3 K0
+R255 G143 B184
+#ff8fb8
+
+Mint green:
+C60 M0 Y53 K0
+R0 G255 B175
+#00ffaf
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kiwi Maru:wght@300&display=swap');
+
+body{
+  padding-top:50px;
+  font-size:18px !important;
+  
+  
+}
+.topicsContainer{
+  margin-right:60px !important;
+  padding-top: 8px !important;
+  
+}
+.topicsContainer h2{font-size:20px;}
+h2{font-size:40px;
+  
+  
+}
+
+
+
+
+#section-welcome-to-the-causal-map-quiz-hub::before{
+  content: url("www/strapline.png");
+}
+#section-welcome-to-the-causal-map-quiz-hub::after{
+  content: url("strapline.png");
+}
+#section-welcome-to-the-causal-map-quiz-hub::after{
+  content: url("images/strapline.png");
+}
+.checkbox:first-of-type::before{
+  content:"Select more than one! \A";
+    white-space: pre; /* or pre-wrap */
+  color:#6dc4c8;
+  font-size:small;
+  vertical-align:top;
+}
+
+
+img{max-width:100%;}

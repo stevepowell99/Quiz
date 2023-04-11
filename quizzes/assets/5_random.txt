@@ -1,0 +1,28 @@
+Which of these advanced tips are true?
+y If you want to save just some part of your file as a new file, apply a filter and then click 'Save this mapfile under a new name' in the top menu, and then 'Save file as currently filtered'
+y You can just type 'find factors label contains Farming' in the Advanced Editor, much easier than 'find factors field=label value=Farming operator=contains'
+y When using the Advanced Editor, you can directly edit the links corresponding to each factor by clicking on the boxes in the right-hand sidebar.
+y Find out how many sources made at least one causal claim? In the links table, put source_id in the Count box, and nothing in the Group By box.
+In the Downloads tab, you can export your entire file as a Gephi file.
+hint There is no downloads tab and no way to export a Gephi file directly. But you can export your mapfile as an Excel file using the menu next to the logo.
+
+Which of these advanced tips are true?
+y Open the Gallery just by pressing Alt+q (Option+q on Mac).
+y In the Advanced Editor, quickly move lines up or down by pressing Alt+Up or Alt+Down  (Option+Up or Option+Down on Mac).
+y In the Advanced Editor, 'color text fixed=pink' sets a fixed colour for factor text.
+y You can 'like' filters in the Gallery to make it easier for you and others to find the best ones.
+You can copy a Print map just by right-clicking on it.
+hint You can right-click to copy an Interactive map but not a Print map
+
+Which of these advanced tips are true?
+y To exclude factors containing 'X' from a map, just type 'find factors label notcontains X'.
+y You can 'hide' shortlink filters in the Gallery which you no longer need. The shortlinks will still work if someone clicks on an old link.
+y You can make the left-hand panel much wider by clicking the tiny '>' button at the top right of the panel.
+y Add a quick, timestamped note to yourself about your file by clicking on the Chat icon in the top menu.
+
+Which of these advanced tips are true?
+y In the Gallery, the grey panels show your recent history and the green panels show shortlinks.
+y If you have some factors which you are no longer using (they have no links), you can see them and delete them in the Data Manager tab.
+y All the tables also have Print View which is just text - useful for pasting into reports. At the top of a table, press the Printer button and then the Copy button
+If you have some sources which you are no longer using (they have no links), you can see them and delete them in the Data Manager tab.
+hint There is no way to delete unused sources at the moment.

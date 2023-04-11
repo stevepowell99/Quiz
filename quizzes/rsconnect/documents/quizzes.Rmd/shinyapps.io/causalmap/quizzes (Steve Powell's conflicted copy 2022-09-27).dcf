@@ -1,0 +1,11 @@
+name: quizzes
+title: quizzes
+username:
+account: causalmap
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5404669
+bundleId: 5954621
+url: https://causalmap.shinyapps.io/quizzes/
+when: 1653735657.19953
+lastSyncTime: 1653735657.19953

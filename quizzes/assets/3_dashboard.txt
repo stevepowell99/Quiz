@@ -1,0 +1,29 @@
+How can you open the dashboard? 
+y Click the medal in the right-hand corner of the screen
+y Press Alt+q (Windows/Linux) or option+q (Mac)
+Search for 'dashboard' in the dropdown on the left hand side of the screen
+
+Which of the following can you do using the dashboard:
+y Copy a link to a filtered map or table for sharing
+y Save a link to a filtered map or table to the dashboard
+y Apply preset filters to a map or table
+Save a PNG of a map or table
+hint You can save a PNG in the interactive tab for maps, and in the tables tab for tables.
+
+Which of these is true about the complete and add-on views:
+y Add-on views will add a filter to the current map but will not delete all previously applied filters
+Complete views will add a filter to the current map but will not delete all previously applied filters
+y You can save filters you have applied as either an add-on or complete view in the dashboard
+You must click on a complete view before applying a add-on view
+
+What does this icon indicate![Screenshot 2023-04-11 at 14.28.15](_assets/Screenshot 2023-04-11 at 14.28.15.png)?
+y This is a custom view you have saved
+This view has been shared with a third-party
+This is a recommended view
+This view will take you to the interactive tab
+
+What does this icon indicate![Screenshot 2023-04-11 at 14.28.55](_assets/Screenshot 2023-04-11 at 14.28.55.png)?
+This is a recommended view
+Click this icon to save your map
+This view will take you to the reports tab
+y This view will take you to the print tab
