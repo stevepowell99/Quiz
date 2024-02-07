@@ -2,23 +2,12 @@ Which of these is true about coding:
 You must always complete all your coding before using the filters to explore and analyse your map
 y As you continue coding, you will sometimes use the filters to reflect on your work so far
 
-**Simple formatting** filters are used for the following:
+**Map formatting** is used for the following:
 To do calculations e.g. the robustness metric
 y To apply overall formatting e.g. give all the factors a grey border
-To format the links and factors in your map to reflect the data i.e. scale links
+y To format the links and factors in your map to reflect the data i.e. scale links
 
-The following are classed as **conditional formats**: 
-y Scale links
-y Colour factor borders
-Find factor
-hint Conditional filters calculate and visualise information in your map
+Which of these is true about the Manage Links tab: 
+You need to understand it to use Causal Map 
+y Even beginners can have a look at the Manage Links tab to see what is going on, if they are interested 
 
-Which of these is true about the Advanced Editor: 
-You need to understand the Advanced Editor to use Causal Map 
-y Even beginners can have a look at the Advanced Editor to see what is going on, if they are interested 
-Only experts should touch the Advanced Editor, otherwise you might break the system
-
-![Screenshot 2022-11-04 at 10.48.03](_assets/Screenshot 2022-11-04 at 10.48.03.png) On each of the table tabs you can set the table to filter or unfiltered, what does filtered mean?
-Only show top ten rows of any given table
-y The table is filtered in the same way as the current map: by any filters applied in the left-hand panel
-Do not show any values containing '0' or 'NA'

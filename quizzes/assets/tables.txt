@@ -1,5 +1,5 @@
 Which of the following are true?
-y You can save a link to a filtered table using the dashboard
+y You can save a link to a filtered table using the library
 y You can download any table as an excel fo further anlaysis
 y The columns available differ from table to table
 
@@ -10,7 +10,7 @@ The sources table
 
 Where could you find a breakdown of the sources and their metadata (e.g. gender, etc)?
 y The sources table
-y The reports tab
+y The factors table
 The files tab
 hint There is more than one correct answer
 

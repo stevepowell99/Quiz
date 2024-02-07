@@ -1,5 +1,5 @@
-In the coding panel, what does the Globe icon icon:globe do?
-y It quotes the whole of the statement
+In the statements panel, what does the Globe icon icon:globe do?
+y It creates a link, quoting the whole of the statement
 It quotes the same text again which you previously quoted
 It chains a new link after the old one
 It makes the claim globally valid
@@ -15,12 +15,6 @@ y It quotes the same text again which you previously quoted and also inserts you
 It inserts your most recent consequence factor(s) into the influence factor dropdown
 It quotes the same text again which you previously quoted and guesses the most likely factors for the consequence factor dropdown
 
-How can you get an overview of all the statements made by the current source?
-y Click the black "book" icon icon:book;
-Click the green "book" icon icon:book;
-y Click on the Statements tab and use the table filters to filter by source_id
-Click on the Links tab and use the table filters to filter by source_id
-
 What should you consider when creating a factor label?
 Make your labels factor in as much detail as possible
 y Keep your factor labels brief
@@ -30,13 +24,7 @@ How can you get an overview of all the links coded for the current source?
 Click the black "book" icon icon:book;
 Click the green "book" icon icon:book;
 Click on the Statements tab and use the table filters to filter by source_id
-y Click on the Links tab and use the table filters to filter by source_id
-
-How can you code question by question rather than statement by statement (e.g. code all the answers to question 1 first, then all the answers to question 2)?
-Click the black "book" icon icon:book;
-Click the green "book" icon icon:book;
-y Click on the Statements tab (probably best to show `All` entries), filter by question_id, then click on the statement you want to code
-Click on the Links tab, filter by question_id, then click on the statement you want to code
+y Click on the Links tab and use filter by by source_id
 
 How would you code 'I got more money from sales of milk and also from selling my chickens'
 y I would put two factors 'selling milk' and 'selling chickens' in the first box and 'got more money' in the second because it is quicker

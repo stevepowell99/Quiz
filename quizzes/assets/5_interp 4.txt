@@ -14,18 +14,3 @@ There is evidence improved access to health care and clean water equally contrib
 y There is evidence that the new health centre contributed to improved access and that improved access contributed to wellbeing
 y There is evidence that the new water pump contributed to access to clean water and that access to clean water contributed to wellbeing
 
-The map below has the trace robustness and trace threads applied, the darker the link colour the more source_ids survive the thread. Which statements are true? ![image-20220325105218049](_assets/image-20220325105218049.png)
-y More respondents reported that the social cash transfer resulted in improved health by increasing food security than through livestock
-More respondents reported that the social cash transfer resulted in improved health through using livestock as a safety net than through increasing food security
-We need to cannot tell from this map which thread was mentioned by more respondents
-hint The darker the link colour the more source_ids have survived the thread
-
-The map below has the trace robustness and trace threads applied, the darker the link colour the more source_ids survive the thread. Which is the most robust link between increased purchased power and improved wellbeing? ![image-20220325113137349](_assets/image-20220325113137349.png)
-y Increased purchasing power-> Increased food security -> Improved wellbeing
-Increased purchasing power-> Increased assets -> Improved wellbeing
-Increased purchasing power-> started, expanded or invested in business -> Improved wellbeing
-
-The map below has the trace robustness and trace threads applied, the number of source_ids surviving the thread are displayed on the link. How many sources said the entire chain: social cash transfer-> Increased purchasing power-> Increased food security?![image-20220405155746259](_assets/image-20220405155746259.png)
-172
-y 84
-30

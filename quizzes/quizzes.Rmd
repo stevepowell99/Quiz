@@ -133,7 +133,7 @@ If you return here from the same computer, you should find your answers saved.
 If you get a question wrong, try again!
 
 
-## 1: 📚 Causal coding{#xlevel1}
+## 📚 1: Causal coding{}
 
 These quizzes are all about basic ideas about causal coding. 
 
@@ -149,7 +149,7 @@ X → Y
 make_quiz("2_coding")
 ```
 
-## 📚 Causal claims
+## Causal claims
 
 For each question, say if it is a causal claim or not.
 
@@ -158,7 +158,7 @@ make_quiz("2_claims")
 ```
 
 
-## 📚 Factors
+## Factors
 
 For each question, say if it is a causal claim or not.
 
@@ -166,7 +166,7 @@ For each question, say if it is a causal claim or not.
 make_quiz("2_inf-cons")
 ```
 
-## 📚 Factor labels
+## Factor labels
 
 Before taking the quiz below, watch this [short video]([https://vimeo.com/580212681](https://vimeo.com/580212681)) which explains what makes a good factor label or refer to these [Guide sections]([https://guide.causalmap.app/creating-good-factor-labels.html?q=good#creating-good-factor-labels](https://guide.causalmap.app/creating-good-factor-labels.html?q=good#creating-good-factor-labels)).
 
@@ -176,7 +176,7 @@ Hierarchical coding can also improve your factor labels, so check out this video
 make_quiz("4_factor_labels")
 ```
 
-## 📚 Zooming
+## Zooming
 
 After reading this section on [hierarchical coding and zooming](https://guide.causalmap.app/xsimplifying-with-hierarchical.html) try this quiz.
 
@@ -185,26 +185,39 @@ After reading this section on [hierarchical coding and zooming](https://guide.ca
 make_quiz("5_levels")
 ```
 
-## 📚 Tracing paths
+## 2: 📚 Advanced causal coding{}
 
-Read up on <a href="https://guide.causalmap.app/xrobustness.html?q=tracing#xrobustness" target="_blank">tracing paths</a>, 
-<a href="https://guide.causalmap.app/xcontinuity.html" target="_blank">continuity and tracing threads</a> in the guide and then test your knowledge with the quiz below!
+
+## Interpreting opposites
+
+Combining opposites is a useful and powerful way of dealing with “negative” factors that have “positive” counterparts. A ‘~’ can be used to signify a negative i.e. ‘~good health’ can be read as ‘bad health’. This function is only useful if you are able to interpret your map after using it, so this quiz will test this.
+
+Check out this [guide section](https://guide.causalmap.app/conditional-formats.html?q=condi#conditional-formats) before giving it a go.
+
+```{r interp2}
+make_quiz("5_interp 2")
+```
+
+
+## Tracing paths
+
 
 
 ```{r tracing}
 make_quiz("5_tracing")
 ```
 
-## 
 
-## 3: 💻 Getting started with the app{#xlevel1}
+
+
+## 3: 💻 Getting started with the app{}
 
 All the other quizzes at this site are about how to use the Causal Map app.
 
 First, read *these* sections of the Guide.
 
 
-## 💻 First steps in the app
+## First steps in the app
 
 The first quizzes here follow the first sections of our [Guide](https://guide.causalmap.app).
 
@@ -213,7 +226,7 @@ make_quiz("1_getting_started")
 
 ```
 
-## 💻 The interface
+## The interface
 
 ![](https://vimeo.com/674369121)
 
@@ -223,13 +236,29 @@ First, read *these* sections of the Guide.
 make_quiz("1_the interface")
 ```
 
+## Statement filters
 
-## 4: Basic coding in the app{#xlevel2}
+First, read *these* sections of the Guide.
+
+```{r quiz3g}
+make_quiz("sfilters")
+```
+
+## Transforms filters
+
+First, read *these* sections of the Guide.
+
+```{r quiz3h}
+make_quiz("tfilters")
+```
+
+
+## 4: 💻 Basic coding in the app{}
 
 First, read *these* sections of the Guide.
 
 
-## 💻 Coding in the app
+## Coding in the app
 
 This short video explains how to code a single statement in Causal Map.
 
@@ -245,36 +274,59 @@ X → Y
 make_quiz("2_coding_in_the_app")
 ```
 
-## 5: Basic analysis in the app{#xlevel3}
+## 5: 💻 Basic analysis in the app{}
 
 Welcome to level 3, basic analysis!
 
 First, read *these* sections of the Guide.
 
-## 💻 Analysis in the app
+## Analysis in the app
 
 Once you have checked out the  [Level 3](https://guide.causalmap.app/xlevel3.html) section of the Guide, test your knowledge with this short quiz.
 
 ```{r labs22}
 make_quiz("3_basic_analysis")
 ```
-## 💻 The library
-
-First, read *these* sections of the Guide.
-## 💻 Tables
-
-First, read *these* sections of the Guide.
-
-## 6: Advanced coding{#xlevel4}
-
-First, read *these* sections of the Guide.
+## The library
 
 
-## 7: Advanced analysis{#xlevel5}
+```{r labs22a}
+make_quiz("library")
+```
 
 First, read *these* sections of the Guide.
 
-## 💻  Interpreting special hashtags
+## Tables
+
+First, read *these* sections of the Guide.
+
+
+```{r labs22xx}
+make_quiz("tables")
+```
+
+## 6: 💻 Advanced coding in the app{}
+
+First, read *these* sections of the Guide.
+
+```{r labs22fde}
+make_quiz("coding_a")
+```
+
+```{r labs22fwe}
+make_quiz("coding_b")
+```
+
+```{r labs22feww}
+make_quiz("coding_c")
+```
+
+
+## 7: 💻 Advanced analysis in the app{}
+
+First, read *these* sections of the Guide.
+
+##  Interpreting special hashtags
 
 
 
@@ -296,22 +348,10 @@ One thing to think about is, have you coded only explicit causal claims or have 
 
 
 ```{r interp}
-#help_drop("xinterp",label="Read about interpreting maps")
-#help_drop("xhashtags",label="Read about hashtags")
 make_quiz("5_interp 1")
 ```
 
-## 💻  Interpreting opposites
-
-Combining opposites is a useful and powerful way of dealing with “negative” factors that have “positive” counterparts. A ‘~’ can be used to signify a negative i.e. ‘~good health’ can be read as ‘bad health’. This function is only useful if you are able to interpret your map after using it, so this quiz will test this.
-
-Check out this [guide section](https://guide.causalmap.app/conditional-formats.html?q=condi#conditional-formats) before giving it a go.
-
-```{r interp2}
-make_quiz("5_interp 2")
-```
-
-## 💻 Interpreting source IDs 
+## Interpreting source IDs 
 
 There are quite a few potential pitfalls to interpreting causal maps! One of them is the [transitivity trap](https://guide.causalmap.app/xtransitivity-trap.html), so have a read of that section of the Guide.
 
@@ -334,7 +374,7 @@ For each map, pick the best interpretation(s)
 make_quiz("5_interp 3")
 ```
 
-## 💻 Interpreting continuity
+## Interpreting continuity
 
 This quiz continues looking at avoiding the transitivity trap. By using the tracing threads filter after tracing robustness or tracing paths, you can visualise how many sources reported an entire chain of causal claims. Read this [section of the guide](https://guide.causalmap.app/xcontinuity.html?q=trace#xtracing-threads) for more information.
 
@@ -342,7 +382,7 @@ This quiz continues looking at avoiding the transitivity trap. By using the trac
 make_quiz("5_interp 4")
 ```
 
-## 💻 Interpreting 'surprise'
+## Interpreting 'surprise'
 
 By using the `surprise` filter, you can split your links into bundles for specific groups like women and men, and visualise whether the sources within a group mentioned the link surprisingly frequently or infrequently. Read this [section of the guide](https://guide.causalmap.app/comparing.html#xsurprise) for more information.
 
@@ -350,7 +390,7 @@ By using the `surprise` filter, you can split your links into bundles for specif
 make_quiz("5_surprise")
 ```
 
-## 💻 Conditional formats
+## Conditional formats
 
 Conditional formats calculate and visualise information in your map, making your map easier to interpret.
 
@@ -360,7 +400,7 @@ Check out this [guide section](https://guide.causalmap.app/coding-opposites.html
 make_quiz("5_conditional formats")
 ```
 
-## 💻 Advanced tips
+## Advanced tips
 
 Experts know all the short-cuts to make life quicker and simpler. Are you an expert?
 
