@@ -228,7 +228,6 @@ make_quiz("1_getting_started")
 
 ## The interface
 
-![](https://vimeo.com/674369121)
 
 First, read *these* sections of the Guide.
 
@@ -263,8 +262,6 @@ First, read *these* sections of the Guide.
 This short video explains how to code a single statement in Causal Map.
 
 First, read *these* sections of the Guide.
-
-![](https://vimeo.com/604099226)
 
 In some of these questions, we will use this "→" symbol to show a causal link made from X to Y:
 

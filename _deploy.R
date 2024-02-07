@@ -36,4 +36,4 @@ update <- function(servers="",msg="WIP"){
     system("git add .")
   }
 }
-update(msg = "init from rstudio")
+update(msg = "init 2 from rstudio")

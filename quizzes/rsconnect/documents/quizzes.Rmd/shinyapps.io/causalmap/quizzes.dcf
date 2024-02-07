@@ -5,7 +5,7 @@ account: causalmap
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 5404669
-bundleId: 8229387
+bundleId: 8229528
 url: https://causalmap.shinyapps.io/quizzes/
 version: 1
 asMultiple: FALSE
