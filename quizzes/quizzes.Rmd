@@ -123,7 +123,7 @@ $(document).ready(function() {
 ![](images/strapline.png)
 
 
-Check out our <a href="https://guide.causalmap.app" target="_blank">Guide</a> for all the answers on causal mapping and the <a href="https://causalmap.shinyapps.io/CausalMap2" target="_blank">Causal Map app</a>.
+Check out our <a href="https://guide.causalmap.app" target="_blank">Guide</a> for all the answers on causal mapping and the <a href="https://causalmap.shinyapps.io/CM3main" target="_blank">Causal Map app</a>.
 
 
 In the quizzes, you can attempt as many questions as you like from whichever sections you want.
@@ -133,79 +133,21 @@ If you return here from the same computer, you should find your answers saved.
 If you get a question wrong, try again!
 
 
-## 1: Getting started{#xlevel1}
+## 1: 📚 Causal coding{#xlevel1}
 
-Welcome to level 1!
+These quizzes are all about basic ideas about causal coding. 
 
-These quizzes refer to the [Level 1](https://guide.causalmap.app/xlevel1.html) section of the Guide.
+You don't need to use the Causal Map app to do these quizzes.
 
-
-## 💻 First steps in the app
-
-The first quizzes here follow the first sections of our [Guide](https://guide.causalmap.app).
-
-Have a look at these sections:
-
-- [Your first 5 minutes with Causal Map](https://guide.causalmap.app/x5.html)
-- [Prerequisites for using the app](https://guide.causalmap.app/prerequisites-for-using-the-app.html)
-- [Signing up and signing in at Causal Map](https://guide.causalmap.app/signing-up-and-signing-in-at-causal-map.html)
-- [Quick tour of the app](https://guide.causalmap.app/quick-tour.html)
-- [FAQs: Causal Map questions and troubleshooting](https://guide.causalmap.app/FAQs.html)
-
-
-
-```{r quiz0}
-make_quiz("1_getting_started")
-
-```
-
-## 💻 The interface
-
-![](https://vimeo.com/674369121)
-
-For more information read this section of the [guide](https://guide.causalmap.app/quick-tour.html) and then take the quiz below.
-
-```{r quiz3}
-make_quiz("1_the interface")
-```
-
-
-## 2: Basic coding{#xlevel2}
-
-Welcome to level 2, basic coding!
-
-These quizzes refer to the [Level 2](https://guide.causalmap.app/xlevel2.html) section of the Guide.
-
-
-## 📚 Coding
+First, read *these* sections of the Guide.
 
 In some of these questions, we will use this "→" symbol to show a causal link made from X to Y:
 
 X → Y
 
 ```{r coding}
-
 make_quiz("2_coding")
 ```
-
-
-## 💻 Coding in the app
-
-This short video explains how to code a single statement in Causal Map.
-
-Also refer to [these Guide sections](https://guide.causalmap.app/xcoding-panel.html?q=creating#xcoding-panel).
-
-![](https://vimeo.com/604099226)
-
-In some of these questions, we will use this "→" symbol to show a causal link made from X to Y:
-
-X → Y
-
-```{r codingapp}
-make_quiz("2_coding_in_the_app")
-```
-
-
 
 ## 📚 Causal claims
 
@@ -224,51 +166,7 @@ For each question, say if it is a causal claim or not.
 make_quiz("2_inf-cons")
 ```
 
-## 3: Basic analysis{#xlevel3}
-
-Welcome to level 3, basic analysis!
-
-These quizzes refer to the [Level 3](https://guide.causalmap.app/xlevel3.html) section of the Guide.
-
-## 💻 Analysis in the app
-
-Once you have checked out the  [Level 3](https://guide.causalmap.app/xlevel3.html) section of the Guide, test your knowledge with this short quiz.
-
-```{r labs22}
-make_quiz("3_basic_analysis")
-```
-## 💻 The dashboard
-
-After you have watched [section 3 of the Causal Map app tutorial video](https://www.youtube.com/watch?v=S2acbJJ9t7E&t=963s) test your knowledge with this quiz about the dashboard. The basics of how to use the dashboard are in also in [this section of the guide](https://guide.causalmap.app/xdashboard.html).
-```{r quiz}
-make_quiz("3_dashboard")
-```
-
-## 💻 Tables
-
-After familarising yourself with the tables by reading [the tables section in the guide](https://guide.causalmap.app/xtables-basic.html) test your understanding with this short quiz.
-```{r quiz3aaa}
-
-make_quiz("3_tables")
-
-```
-
-## 4: Advanced coding{#xlevel4}
-
-
-Welcome to level 4, advanced coding!
-
-These quizzes refer to the [Level 4](https://guide.causalmap.app/xlevel4.html) section of the Guide.
-
-
-## 💻 The factor editor
-
-After reading the relevant sections in the guide ([https://guide.causalmap.app/xfactor-editor.html](https://guide.causalmap.app/xfactor-editor.html)) test your knowledge with this quiz.
-```{r quiz4}
-make_quiz("4_factor_editor")
-```
-
-## 📚 Good factor labels
+## 📚 Factor labels
 
 Before taking the quiz below, watch this [short video]([https://vimeo.com/580212681](https://vimeo.com/580212681)) which explains what makes a good factor label or refer to these [Guide sections]([https://guide.causalmap.app/creating-good-factor-labels.html?q=good#creating-good-factor-labels](https://guide.causalmap.app/creating-good-factor-labels.html?q=good#creating-good-factor-labels)).
 
@@ -278,12 +176,14 @@ Hierarchical coding can also improve your factor labels, so check out this video
 make_quiz("4_factor_labels")
 ```
 
+## 📚 Zooming
 
-## 5: Advanced analysis{#xlevel5}
+After reading this section on [hierarchical coding and zooming](https://guide.causalmap.app/xsimplifying-with-hierarchical.html) try this quiz.
 
-Welcome to level 5, advanced analysis!
 
-These quizzes refer to the [Level 5](https://guide.causalmap.app/xlevel5.html) section of the Guide.
+```{r levels}
+make_quiz("5_levels")
+```
 
 ## 📚 Tracing paths
 
@@ -295,17 +195,86 @@ Read up on <a href="https://guide.causalmap.app/xrobustness.html?q=tracing#xrobu
 make_quiz("5_tracing")
 ```
 
-## 📚 Zooming
+## 
 
-After reading this section on [hierarchical coding and zooming](https://guide.causalmap.app/xsimplifying-with-hierarchical.html) try this quiz.
+## 3: 💻 Getting started with the app{#xlevel1}
+
+All the other quizzes at this site are about how to use the Causal Map app.
+
+First, read *these* sections of the Guide.
 
 
-```{r levels}
-#help_drop("xsimplifying-with-hierarchical",label="Read about hierarchical coding")
-make_quiz("5_levels")
+## 💻 First steps in the app
+
+The first quizzes here follow the first sections of our [Guide](https://guide.causalmap.app).
+
+```{r quiz0}
+make_quiz("1_getting_started")
+
 ```
 
-## 📚 Interpreting special hashtags
+## 💻 The interface
+
+![](https://vimeo.com/674369121)
+
+First, read *these* sections of the Guide.
+
+```{r quiz3}
+make_quiz("1_the interface")
+```
+
+
+## 4: Basic coding in the app{#xlevel2}
+
+First, read *these* sections of the Guide.
+
+
+## 💻 Coding in the app
+
+This short video explains how to code a single statement in Causal Map.
+
+First, read *these* sections of the Guide.
+
+![](https://vimeo.com/604099226)
+
+In some of these questions, we will use this "→" symbol to show a causal link made from X to Y:
+
+X → Y
+
+```{r codingapp}
+make_quiz("2_coding_in_the_app")
+```
+
+## 5: Basic analysis in the app{#xlevel3}
+
+Welcome to level 3, basic analysis!
+
+First, read *these* sections of the Guide.
+
+## 💻 Analysis in the app
+
+Once you have checked out the  [Level 3](https://guide.causalmap.app/xlevel3.html) section of the Guide, test your knowledge with this short quiz.
+
+```{r labs22}
+make_quiz("3_basic_analysis")
+```
+## 💻 The library
+
+First, read *these* sections of the Guide.
+## 💻 Tables
+
+First, read *these* sections of the Guide.
+
+## 6: Advanced coding{#xlevel4}
+
+First, read *these* sections of the Guide.
+
+
+## 7: Advanced analysis{#xlevel5}
+
+First, read *these* sections of the Guide.
+
+## 💻  Interpreting special hashtags
 
 
 
@@ -332,7 +301,7 @@ One thing to think about is, have you coded only explicit causal claims or have 
 make_quiz("5_interp 1")
 ```
 
-## 📚 Interpreting opposites
+## 💻  Interpreting opposites
 
 Combining opposites is a useful and powerful way of dealing with “negative” factors that have “positive” counterparts. A ‘~’ can be used to signify a negative i.e. ‘~good health’ can be read as ‘bad health’. This function is only useful if you are able to interpret your map after using it, so this quiz will test this.
 
@@ -342,7 +311,7 @@ Check out this [guide section](https://guide.causalmap.app/conditional-formats.h
 make_quiz("5_interp 2")
 ```
 
-## 📚 Interpreting source IDs 
+## 💻 Interpreting source IDs 
 
 There are quite a few potential pitfalls to interpreting causal maps! One of them is the [transitivity trap](https://guide.causalmap.app/xtransitivity-trap.html), so have a read of that section of the Guide.
 
@@ -365,7 +334,7 @@ For each map, pick the best interpretation(s)
 make_quiz("5_interp 3")
 ```
 
-## 📚 Interpreting continuity
+## 💻 Interpreting continuity
 
 This quiz continues looking at avoiding the transitivity trap. By using the tracing threads filter after tracing robustness or tracing paths, you can visualise how many sources reported an entire chain of causal claims. Read this [section of the guide](https://guide.causalmap.app/xcontinuity.html?q=trace#xtracing-threads) for more information.
 
@@ -373,7 +342,7 @@ This quiz continues looking at avoiding the transitivity trap. By using the trac
 make_quiz("5_interp 4")
 ```
 
-## 📚 Interpreting 'surprise'
+## 💻 Interpreting 'surprise'
 
 By using the `surprise` filter, you can split your links into bundles for specific groups like women and men, and visualise whether the sources within a group mentioned the link surprisingly frequently or infrequently. Read this [section of the guide](https://guide.causalmap.app/comparing.html#xsurprise) for more information.
 
